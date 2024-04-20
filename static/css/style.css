@@ -189,8 +189,16 @@ ul {
 
 .card_3 img {
     transition: 0.5s;
+    grid-column: 2/3;
 }
 
 .card_3 img:hover {
     transform: scale(1.10);
+}
+
+.all_cards {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+
+    text-align: center;
 }
