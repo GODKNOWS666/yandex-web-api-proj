@@ -1,0 +1,196 @@
+a { 
+    text-decoration: none;
+}
+
+ul { 
+    list-style-type: none;
+}
+
+.Header li:nth-child(2){
+    font-size: 30px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+.Header {
+    margin-left: 200px;
+    margin-right: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.Header a {
+    color: #968a8a;
+  }
+
+
+.Main_Header {
+    top: 0;
+    left: 0;
+    position: fixed;
+    width: 100%;
+    background-color: #f0e9e9;
+    z-index: 9999;
+    box-shadow: 15px 25px 46px 27px rgba(0,0,0,0.1);
+    line-height: 75px;
+}
+
+.clothes_text a:hover{
+    color: #403a3a;
+}
+
+.profile_text a:hover{
+    color: #403a3a;
+}
+
+.Main_Body {
+    height: 100%;
+    background-color: #faf2f2;
+    position: relative;
+}
+
+
+.down_texts {
+    display: grid;
+    grid-template-columns: repeat(6, 100px);
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    padding-top: 45.5%;
+    margin-left: 350px;
+    margin-right: 350px;
+
+}
+
+.down_texts a {
+    color: black;
+    font-size: 10px;
+    opacity: 0.85;
+}
+
+.card_1 {
+    display: grid;
+    position: fixed;
+    background-color: rgba(255, 255, 255, 0.4);
+    text-align: center;
+    width: 275px;
+    height: 340px;
+    border-radius: 15px;
+    margin-top: 200px;
+    margin-left: 325px;
+    box-shadow: 0px 16px 21px 6px rgba(0,0,0,0.1);
+
+}
+
+.card_1_name {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 650;
+}
+
+.card_1_name a {
+    color: black;
+    font-size: 15px;
+}
+
+.card_1_price {
+    margin-top: 6px;
+}
+.card_1_price a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+}
+
+.card_1 img {
+    transition: 0.5s;
+}
+
+.card_1 img:hover {
+    transform: scale(1.10);
+}
+
+.card_2 {
+    display: grid;
+    position: fixed;
+    background-color: rgba(255, 255, 255, 0.4);
+    text-align: center;
+    width: 275px;
+    height: 340px;
+    border-radius: 15px;
+    margin-top: 200px;
+    margin-left: 620px;
+    box-shadow: 0px 16px 21px 6px rgba(0,0,0,0.1);
+
+}
+
+.card_2_name {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 650;
+}
+
+.card_2_name a {
+    color: black;
+    font-size: 15px;
+}
+
+.card_2_price {
+    margin-top: 6px;
+}
+.card_2_price a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+}
+
+.card_2 img {
+    transition: 0.5s;
+}
+
+.card_2 img:hover {
+    transform: scale(1.10);
+}
+
+
+
+.card_3 {
+    display: grid;
+    position: fixed;
+    background-color: rgba(255, 255, 255, 0.4);
+    text-align: center;
+    width: 275px;
+    height: 340px;
+    border-radius: 15px;
+    margin-top: 200px;
+    margin-left: 915px;
+    box-shadow: 0px 16px 21px 6px rgba(0,0,0,0.1);
+
+}
+
+.card_3_name {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 650;
+}
+
+.card_3_name a {
+    color: black;
+    font-size: 15px;
+}
+
+.card_3_price {
+    margin-top: 6px;
+}
+.card_3_price a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+}
+
+.card_3 img {
+    transition: 0.5s;
+}
+
+.card_3 img:hover {
+    transform: scale(1.10);
+}
